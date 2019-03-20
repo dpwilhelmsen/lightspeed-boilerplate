@@ -1,0 +1,37 @@
+{
+  "extends": "airbnb",
+  "env": {
+    "jest": true,
+    "browser": true,
+    "react-native/react-native": true
+  },
+  "rules": {
+    "arrow-body-style": "off",
+    "chai-friendly/no-unused-expressions": 2,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/*.test.js", "**/*.stories.js"]}],
+    "no-console": "off",
+    "no-continue": "off",
+    "no-unused-expressions": 0,
+    "no-unused-vars": ["error", { "vars": "local" }],
+    "no-use-before-define": ["error", { "variables": false }],
+    "max-len": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "jsx-a11y/no-static-element-interactions": [ "error", { "handlers": [] } ],
+    "jsx-a11y/click-events-have-key-events": "off",
+    "no-underscore-dangle": "off",
+    "jsx-a11y/no-noninteractive-element-interactions": "off",
+    "class-methods-use-this": "off",
+    "no-unneeded-ternary": "off",
+    "no-param-reassign": "off",
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2,
+    "react-native/no-raw-text": "off"
+  },
+  "plugins": [
+    "react",
+    "react-native",
+    "chai-friendly"
+  ]
+}

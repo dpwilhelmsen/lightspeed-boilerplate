@@ -1,0 +1,45 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "server": "node server.js",
+    "lint": "eslint src/**; exit 0;"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
+    "apollo-boost": "^0.3.1",
+    "expo": "^32.0.0",
+    "formik": "^1.5.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "native-base": "^2.12.1",
+    "prop-types": "^15.7.2",
+    "react": "16.5.0",
+    "react-apollo": "^2.5.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-formik": "^1.7.5",
+    "react-native-router-flux": "4.1.0-beta.4",
+    "react-native-router-flux-cli": "^0.0.1",
+    "react-navigation": "^3.5.1",
+    "recompose": "^0.30.0",
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "apollo-server-express": "^1.4.0",
+    "babel-preset-expo": "^5.0.0",
+    "body-parser": "^1.18.3",
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-native": "^3.6.0",
+    "express": "^4.16.4",
+    "graphql-tools": "^4.0.4"
+  },
+  "private": true
+}
