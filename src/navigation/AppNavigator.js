@@ -35,7 +35,7 @@ const getSceneStyle = () => ({
 });
 
 // on Android, the URI prefix typically contains a host in addition to scheme
-const prefix = Platform.OS === 'android' ? 'mychat://mychat/' : 'mychat://';
+const prefix = Platform.OS === 'android' ? 'lightspeed://lightspeed/' : 'lightspeed://';
 
 const AppNavigator = () => (
   <Router
