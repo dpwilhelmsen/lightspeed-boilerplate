@@ -17,7 +17,9 @@ An Expo, NativeBase, React Native Router Flux &amp; Graphql powered React Native
         * [Containers](#containers)
         * [Screens](#screens)
         * [Navigation](#navigation)
-   * [Dependency](#dependency)
+   * [Contributing](#contributing)
+   * [License](#license)
+   * [Acknowledgments](#acknowledgments)
 <!--te-->
 
 ## Intro
