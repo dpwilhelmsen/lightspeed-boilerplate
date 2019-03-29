@@ -2,7 +2,7 @@
 
 # Lightspeed Boilerplate for React Native
 An Expo, NativeBase, React Native Router Flux &amp; Graphql powered React Native boilerplate. Built to get you up and running at the speed of light!
-
+[Lightspeed Boilerplate in Action](https://raw.githubusercontent.com/dpwilhelmsen/lightspeed-boilerplate/master/demo_small.gif)
 ## Table of contents
 
 <!--ts-->
@@ -292,7 +292,7 @@ Please read [CONTRIBUTING.md](https://github.com/dpwilhelmsen/lightspeed-boilerp
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/dpwilhelmsen/lightspeed-boilerplate/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/dpwilhelmsen/lightspeed-boilerplate/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
