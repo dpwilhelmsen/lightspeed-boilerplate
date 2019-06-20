@@ -3,10 +3,11 @@
     "name": "Lightspeed Boilerplate",
     "slug": "lightspeed-boilerplate",
     "privacy": "public",
-    "sdkVersion": "32.0.0",
+    "sdkVersion": "33.0.0",
     "platforms": [
       "ios",
-      "android"
+      "android",
+      "web"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -24,6 +25,36 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": [
+            "native-base-shoutem-theme",
+            "static-container",
+            "react-navigation-deprecated-tab-navigator",
+            "immutable-tuple",
+            "expo"
+          ],
+          "plugins": [
+            "@babel/plugin-proposal-class-properties",
+            "@babel/plugin-proposal-function-bind"
+          ]
+        }
+      },
+      "twitter": {
+        "card": "summary",
+        "title": "Expo Web",
+        "description": "examples of using Expo in the browser",
+        "site": "https://expo.io",
+        "image": "//url-to-image",
+        "creator": "expo bacon"
+      },
+      "metatags": {
+        "author": "anthony kiedis",
+        "format-detection": "telephone=yes"
+      },
+      "minifyHTML": false
     }
   }
 }
