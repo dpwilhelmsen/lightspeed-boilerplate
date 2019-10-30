@@ -16,6 +16,7 @@
     "formik": "^1.5.1",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
+    "lodash": "^4.17.15",
     "native-base": "^2.12.1",
     "prop-types": "^15.7.2",
     "react": "16.8.3",
